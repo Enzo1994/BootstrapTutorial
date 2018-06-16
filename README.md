@@ -16,13 +16,13 @@
 - 每个控件（label+控件）包裹在.form-group内
 - 所有设置了 .form-control 类的 `<input>`、`<textarea>` 和 `<select>` 元素都将被默认设置宽度属性为 width: 100%;
 - 输入栏头尾可以添加自定义内容`span.input-group-addon`
-- div设置输入框变色警告：`.has-warning`、`.has-error`或`.has-success` ， *输入框结尾要配置span标签* 
+- div设置输入框变色警告：`.has-warning`、`.has-error`或`.has-success` ， **输入框结尾要配置span标签** 
 - 使用.has-feedback给变色警告加图片
 - div标签的role属性可设置button、input等
 
 ##### fieldset禁用：
 - `<fieldset disable>`会禁用被包裹内的所有控件  
-    * *注意：a标签链接不受影响，请使用js禁用*
+    * **注意：a标签链接不受影响，请使用js禁用**
 
 ##### 表单布局：
 - 水平排列宽度百分百：`<form class="form-horizontal">`
